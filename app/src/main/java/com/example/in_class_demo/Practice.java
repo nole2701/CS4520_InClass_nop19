@@ -22,7 +22,7 @@ public class Practice extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Activity population...
-                Log.d("demo", "Practice Practice Practice!!!");
+                Log.d("Practice", "Practice Practice Practice!!!");
             }
         });
 

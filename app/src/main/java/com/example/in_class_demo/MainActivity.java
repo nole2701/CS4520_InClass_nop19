@@ -31,5 +31,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(toPractice);
             }
         });
+
+        Button buttonInClass01 = findViewById(R.id.buttonInClass01);
+        buttonInClass01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Activity population...
+                Intent toInClass01 = new Intent(MainActivity.this, InClass01.class);
+                startActivity(toInClass01);
+            }
+        });
     }
 }

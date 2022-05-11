@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">in-class-demo</string>
+    <string name="titleBMI">Body Mass Index (BMI)</string>
+    <string name="heightFeetHint">feet</string>
+    <string name="weightTitle">Weight</string>
+    <string name="weightUnit">lb</string>
+    <string name="heightTitle">Height</string>
+    <string name="weightHint">Your weight in pounds</string>
+    <string name="heightFeetUnit">feet</string>
+    <string name="heightInchesText">inches</string>
+    <string name="calculateText">Calculate!</string>
+    <string name="heightInchesHint">inches</string>
+    <string name="resultsText">Results...</string>
 </resources>
