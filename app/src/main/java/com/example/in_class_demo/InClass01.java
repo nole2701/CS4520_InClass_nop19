@@ -10,6 +10,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
+// Nop Lertsumitkul
+// Assignment #1
 public class InClass01 extends AppCompatActivity {
 
     @Override
@@ -48,6 +51,7 @@ public class InClass01 extends AppCompatActivity {
                     TextView resultsTextView = findViewById(R.id.textViewResults);
                     String invalidInputText = "Invalid Input";
                     resultsTextView.setText(invalidInputText);
+                    Toast.makeText(InClass01.this, "Invalid Input!", Toast.LENGTH_LONG).show();
                     return;
                 }
 

@@ -8,7 +8,7 @@
     <string name="weightHint">Your weight in pounds</string>
     <string name="heightFeetUnit">feet</string>
     <string name="heightInchesText">inches</string>
-    <string name="calculateText">Calculate!</string>
+    <string name="calculateText">Calculate BMI</string>
     <string name="heightInchesHint">inches</string>
-    <string name="resultsText">Results...</string>
+    <string name="resultsText">Click on Calculate BMI to find your BMI</string>
 </resources>
