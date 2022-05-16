@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.in_class_demo.InClass01.InClass01;
+import com.example.in_class_demo.Practice.Practice;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

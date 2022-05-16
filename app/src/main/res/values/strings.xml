@@ -11,4 +11,11 @@
     <string name="calculateText">Calculate BMI</string>
     <string name="heightInchesHint">inches</string>
     <string name="resultsText">Click on Calculate BMI to find your BMI</string>
+    <string name="stringName">Name</string>
+    <string name="stringEmail">Email</string>
+    <string name="stringIUse">I use</string>
+    <string name="textAndroid">Android</string>
+    <string name="textiOS">iOS</string>
+    <string name="textMood">Your current mood:</string>
+    <string name="buttonSubmit">Submit</string>
 </resources>

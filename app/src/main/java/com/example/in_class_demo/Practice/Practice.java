@@ -1,13 +1,14 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.Practice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.in_class_demo.R;
 
 public class Practice extends AppCompatActivity {
 

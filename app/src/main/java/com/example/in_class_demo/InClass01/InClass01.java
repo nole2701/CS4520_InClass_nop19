@@ -1,4 +1,4 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.in_class_demo.R;
 
 
 // Nop Lertsumitkul

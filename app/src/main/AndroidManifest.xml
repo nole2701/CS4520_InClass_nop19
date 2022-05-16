@@ -14,10 +14,13 @@
         android:theme="@style/Theme.Inclassdemo"
         tools:targetApi="31">
         <activity
-            android:name=".InClass01"
+            android:name=".InClass02"
             android:exported="false" />
         <activity
-            android:name=".Practice"
+            android:name=".InClass01.InClass01"
+            android:exported="false" />
+        <activity
+            android:name=".Practice.Practice"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
