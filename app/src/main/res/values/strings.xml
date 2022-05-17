@@ -18,4 +18,5 @@
     <string name="textiOS">iOS</string>
     <string name="textMood">Your current mood:</string>
     <string name="buttonSubmit">Submit</string>
+    <string name="textSelectAvatar">Select Your Avatar</string>
 </resources>
