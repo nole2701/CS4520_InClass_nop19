@@ -37,7 +37,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/stringEmail"
-        android:inputType="textPersonName"
+        android:inputType="textWebEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
