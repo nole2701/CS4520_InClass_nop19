@@ -1,4 +1,4 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass02;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.in_class_demo.R;
 
 public class selectAvatar extends AppCompatActivity {
 

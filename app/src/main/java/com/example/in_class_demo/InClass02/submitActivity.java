@@ -1,12 +1,13 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass02;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.in_class_demo.R;
 
 public class submitActivity extends AppCompatActivity {
 

@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.in_class_demo.InClass01.InClass01;
+import com.example.in_class_demo.InClass02.InClass02;
 import com.example.in_class_demo.Practice.Practice;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.d(TAG1, "Hello World");
-        Toast.makeText(this, "Showing Demo Toast!", Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "Showing Demo Toast!", Toast.LENGTH_LONG).show();
         Log.d(TAG1, "toast shown");
 
         Button buttonPractice = findViewById(R.id.buttonPractice);
@@ -52,6 +53,16 @@ public class MainActivity extends AppCompatActivity {
                 // Activity population...
                 Intent toInClass02 = new Intent(MainActivity.this, InClass02.class);
                 startActivity(toInClass02);
+            }
+        });
+
+        Button buttonInClass03 = findViewById(R.id.buttonInClass03);
+        buttonInClass03.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Activity population...
+                Intent toInClass03 = new Intent(MainActivity.this, InClass03.class);
+                startActivity(toInClass03);
             }
         });
     }

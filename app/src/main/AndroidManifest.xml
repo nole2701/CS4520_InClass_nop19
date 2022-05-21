@@ -14,13 +14,16 @@
         android:theme="@style/Theme.Inclassdemo"
         tools:targetApi="31">
         <activity
-            android:name=".submitActivity"
+            android:name=".InClass03"
             android:exported="false" />
         <activity
-            android:name=".selectAvatar"
+            android:name=".InClass02.submitActivity"
             android:exported="false" />
         <activity
-            android:name=".InClass02"
+            android:name=".InClass02.selectAvatar"
+            android:exported="false" />
+        <activity
+            android:name=".InClass02.InClass02"
             android:exported="false" />
         <activity
             android:name=".InClass01.InClass01"
