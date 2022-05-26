@@ -22,4 +22,11 @@
     <string name="buttonInClass03">InClass03</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonInClass04">InClass04</string>
+    <string name="SelectComplexity">Select Complexity:</string>
+    <string name="Minimum">Minimum:</string>
+    <string name="stringEmpty" />
+    <string name="Maximum">Maximum:</string>
+    <string name="Average">Average:</string>
+    <string name="GenerateNumber">Generate Number</string>
 </resources>

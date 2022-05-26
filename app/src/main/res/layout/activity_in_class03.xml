@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InClass03">
+    tools:context=".InClass03.InClass03">
 
     <TextView
         android:id="@+id/textMood"
@@ -132,7 +132,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentSelectAvatar"
-            android:name="com.example.in_class_demo.selectAvatarFragment"
+            android:name="com.example.in_class_demo.InClass03.selectAvatarFragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -149,7 +149,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentSubmitActivity"
-            android:name="com.example.in_class_demo.submitActivityFragment"
+            android:name="com.example.in_class_demo.InClass03.submitActivityFragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

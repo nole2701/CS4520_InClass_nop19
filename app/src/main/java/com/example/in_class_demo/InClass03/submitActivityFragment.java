@@ -1,16 +1,17 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass03;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.in_class_demo.R;
 
 /**
  * A simple {@link Fragment} subclass.

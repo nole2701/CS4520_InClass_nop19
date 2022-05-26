@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.example.in_class_demo.InClass01.InClass01;
 import com.example.in_class_demo.InClass02.InClass02;
+import com.example.in_class_demo.InClass03.InClass03;
 import com.example.in_class_demo.Practice.Practice;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,6 +63,16 @@ public class MainActivity extends AppCompatActivity {
                 // Activity population...
                 Intent toInClass03 = new Intent(MainActivity.this, InClass03.class);
                 startActivity(toInClass03);
+            }
+        });
+
+        Button buttonInClass04 = findViewById(R.id.buttonInClass04);
+        buttonInClass04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Activity population...
+                Intent toInClass04 = new Intent(MainActivity.this, InClass04.class);
+                startActivity(toInClass04);
             }
         });
     }

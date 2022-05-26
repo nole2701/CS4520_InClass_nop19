@@ -1,9 +1,8 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass03;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,9 +13,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.in_class_demo.InClass02.InClass02;
-import com.example.in_class_demo.InClass02.selectAvatar;
-import com.example.in_class_demo.InClass02.submitActivity;
+import com.example.in_class_demo.R;
 
 import java.util.Objects;
 
@@ -159,7 +156,7 @@ public class InClass03 extends AppCompatActivity implements selectAvatarFragment
 
                 if (!nameFlag && !emailFlag && !iUseStringFlag) {
                     getSupportFragmentManager().beginTransaction()
-                            .add(R.id.containerFragmentSubmitActivity, com.example.in_class_demo.submitActivityFragment.newInstance(name,
+                            .add(R.id.containerFragmentSubmitActivity, com.example.in_class_demo.InClass03.submitActivityFragment.newInstance(name,
                                     email, moodString, iUseString, moodFileID, avatarFileID), "selectAvatarFragment")
                             .addToBackStack(null).commit();
                     setTitle("Display Activity");
