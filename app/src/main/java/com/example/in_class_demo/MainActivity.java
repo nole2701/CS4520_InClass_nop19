@@ -11,6 +11,9 @@ import android.widget.Button;
 import com.example.in_class_demo.InClass01.InClass01;
 import com.example.in_class_demo.InClass02.InClass02;
 import com.example.in_class_demo.InClass03.InClass03;
+import com.example.in_class_demo.InClass04.InClass04;
+import com.example.in_class_demo.InClass05.InClass05;
+import com.example.in_class_demo.InClass06.InClass06;
 import com.example.in_class_demo.Practice.Practice;
 
 public class MainActivity extends AppCompatActivity {
@@ -73,6 +76,36 @@ public class MainActivity extends AppCompatActivity {
                 // Activity population...
                 Intent toInClass04 = new Intent(MainActivity.this, InClass04.class);
                 startActivity(toInClass04);
+            }
+        });
+
+        Button buttonInClass05 = findViewById(R.id.buttonInClass05);
+        buttonInClass05.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Activity population...
+                Intent toInClass05 = new Intent(MainActivity.this, InClass05.class);
+                startActivity(toInClass05);
+            }
+        });
+
+        Button buttonInClass06 = findViewById(R.id.buttonInClass06);
+        buttonInClass06.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Activity population...
+                Intent toInClass06 = new Intent(MainActivity.this, InClass06.class);
+                startActivity(toInClass06);
+            }
+        });
+
+        Button buttonInClass07 = findViewById(R.id.buttonInClass07);
+        buttonInClass07.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Activity population...
+                Intent toInClass07 = new Intent(MainActivity.this, InClass07.class);
+                startActivity(toInClass07);
             }
         });
     }

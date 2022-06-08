@@ -1,4 +1,4 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass04;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,21 +7,20 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.in_class_demo.InClass03.InClass03;
+import com.example.in_class_demo.R;
 
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+// Nop Lertsumitkul
+// Assignment #4
 
 public class InClass04 extends AppCompatActivity {
     private Button generateButton;
