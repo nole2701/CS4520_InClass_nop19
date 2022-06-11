@@ -17,10 +17,22 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".NotesPage"
+            android:name=".register_InClass08"
             android:exported="false" />
         <activity
-            android:name=".InClass07"
+            android:name=".login_InClass08"
+            android:exported="false" />
+        <activity
+            android:name=".init_InClass08"
+            android:exported="false" />
+        <activity
+            android:name=".InClass08"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07.NotesPage"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07.InClass07"
             android:exported="false" />
         <activity
             android:name=".InClass06.InClass06"

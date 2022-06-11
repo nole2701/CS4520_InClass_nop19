@@ -1,11 +1,10 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass07;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,8 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.in_class_demo.InClass01.InClass01;
-import com.example.in_class_demo.InClass02.InClass02;
+import com.example.in_class_demo.R;
 import com.google.gson.Gson;
 
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass07;
 
 public class Note {
     private String _id;

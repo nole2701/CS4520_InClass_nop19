@@ -1,4 +1,4 @@
-package com.example.in_class_demo;
+package com.example.in_class_demo.InClass07;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,11 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.example.in_class_demo.InClass02.InClass02;
-import com.example.in_class_demo.InClass02.submitActivity;
-import com.example.in_class_demo.InClass05.InClass05;
+import com.example.in_class_demo.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
